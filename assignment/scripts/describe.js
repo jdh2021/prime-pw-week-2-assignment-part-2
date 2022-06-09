@@ -27,8 +27,8 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and set it to 'Dane' as a string.
-// We check if the variable name is equal to Mary. If it is, we console log 'Hi, Mary!' If it's not, we console log 'How do you do?'
-// Since the variable name is not equal to Mary, we console log 'How do you do?'
+// We check if the variable name is equal to Mary. If it is, we console.log 'Hi, Mary!' If it's not, we console.log 'How do you do?'
+// Since the variable name is not equal to Mary, we console.log 'How do you do?'
 
 //CODE
 /*
@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // and the variable code is set to the value of itself multiplied by two.
 // If the variable code is greater than 250, the variable secret is set to the value of 'duper' as a string.
 // Since the variable code is equal to 123, the variable secret is set to the value of 'super' as a string, 
-// and the variable code is set to the value of 246 as a number. We console log the variable secret which outputs 'super'.
+// and the variable code is set to the value of 246 as a number. We console.log the variable secret which outputs 'super'.
 
 //CODE
 /*
@@ -74,7 +74,7 @@ console.log(secret)
 // We make three variables: isStudent, age and zip. isStudent is set to to the boolean value true. Age is set to 34 as a number. Zip is set to 55407 as a number.
 // We first check if both the variable isStudent is true and the variable zip is greater than 80000. isStudent is true, but zip is not greater than 80000.
 // We then check if the variable isStudent is false or the variable age is less than 30. isStudent is not false, and age is not less than 30.
-// We then check only if the variable isStudent is true. isStudent is true so we console log 'Welcome to Prime!'
+// We then check only if the variable isStudent is true. isStudent is true so we console.log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -128,12 +128,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne is set to 'red' but should be set to 'blue'. colorTwo is set to 'blue' but should be set to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
+  // FIX - colorTwo should also be set to 'purple'. Should add a line: colorTwo = 'purple';
+  colorOne = 'purple'; 
 }
 */
 
@@ -145,6 +147,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX || indicates 'or'. || should be changed to && so that 'throw away the food!' is only logged when both conditions are true.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -158,7 +161,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX Should be: if (age >= minAge) because we are checking if age is greater than or equal to minAge, not if minAge is less than or equal to age.
 if(minAge <= age) {
+  // FIX We should first console.log 'enter' since that is the output we want when the condition is true. 
+  // For the else output we should console.log 'no entry'. This applies when the condition is false (age is not greater than or equal to minAge).
   console.log('no entry');
 } else {
   console.log('enter');
