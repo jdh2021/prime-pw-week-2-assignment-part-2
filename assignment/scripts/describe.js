@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to 'Dane' as a string.
+// We check if the variable name is equal to Mary. If it is, we console log 'Hi, Mary!' If it's not, we console log 'How do you do?'
+// Since the variable name is not equal to Mary, we console log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +44,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make an undefined variable called secret and a variable called code that is set to 123 as a number.
+// We check if the variable code is equal to 123. If it is, the variable secret is set to the value of 'super' as a string, 
+// and the variable code is set to the value of itself multiplied by two.
+// If the variable code is greater than 250, the variable secret is set to the value of 'duper' as a string.
+// Since the variable code is equal to 123, the variable secret is set to the value of 'super' as a string, 
+// and the variable code is set to the value of 246 as a number. We console log the variable secret which outputs 'super'.
 
 //CODE
 /*
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make three variables: isStudent, age and zip. isStudent is set to to the boolean value true. Age is set to 34 as a number. Zip is set to 55407 as a number.
+// We first check if both the variable isStudent is true and the variable zip is greater than 80000. isStudent is true, but zip is not greater than 80000.
+// We then check if the variable isStudent is false or the variable age is less than 30. isStudent is not false, and age is not less than 30.
+// We then check only if the variable isStudent is true. isStudent is true so we console log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -92,9 +93,6 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
-
-
-
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
